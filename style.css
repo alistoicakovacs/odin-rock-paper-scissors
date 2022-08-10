@@ -2,6 +2,7 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
 body {
@@ -11,6 +12,10 @@ body {
   align-items: center;
   flex-direction: column;
   gap: 50px;
+}
+
+.title {
+font-size: 3rem;
 }
 
 .container {
@@ -25,6 +30,7 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
+  height: 100px;
 }
 
 .answer h2 {
@@ -53,4 +59,16 @@ img:hover {
   justify-content: center;
   gap: 50px;
   align-items: center;
+}
+
+
+.computer,
+.player {
+  font-size: 20px;
+  font-weight: bold;
+  height: 50px;
+}
+
+.answer h3 {
+  padding:20px;
 }
