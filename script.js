@@ -65,6 +65,13 @@ function changeChoice (event) {
          document.body.style.color="black"
 
       }
+
+      setTimeout (() => {
+         document.body.style.backgroundColor="white"
+         document.body.style.color="black"
+         computer.innerHTML = "";
+         answer.innerHTML = ""
+      }, 3000)
    
 }};
 
