@@ -49,17 +49,19 @@ img {
   cursor: pointer;
   transition: all 0.2s ease-in;
   background-color: transparent;
-  border:1px solid black;
+  border:2px solid rgb(128, 128, 128,0.1);
   padding:20px;
+  border-radius:10px;
   
 }
 
 img:hover {
   background-color: #fff;
-}
-
-img:hover {
-  transform: scale(1.2);
+  transform: scale(1.05);
+  animation-duration: 0.2s;
+  border: none;
+  box-shadow: 1px 2px 55px rgb(0,0,0,0.5)
+  ;
 }
 
 .options {
