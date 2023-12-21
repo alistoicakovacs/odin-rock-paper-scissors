@@ -70,6 +70,7 @@ function changeChoice (event) {
          document.body.style.backgroundColor="white"
          document.body.style.color="black"
          computer.innerHTML = "";
+         player.innerHTML = "";
          answer.innerHTML = ""
       }, 3000)
    
